@@ -3,6 +3,9 @@
 #include <time.h>
 
 int main() {
+    //Mensaje antes de inicializar el programa
+        std::cout<<"3) Diseñe el programa que simula el lanzamiento de un dado de 6 caras. Utilice números aleatorios para generar en número entre 1 y 6." <<std::endl;
+
     // Inicializa el generador de números aleatorios
     srand(static_cast<unsigned int>(time(0)));  
 

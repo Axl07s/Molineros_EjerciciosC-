@@ -2,21 +2,23 @@
 #include <stdlib.h>
 #include <time.h>
 
+using namespace std;
+
 int main() {
-    // Inicializa el generador de números aleatorios
-    srand(static_cast<unsigned int>(time(0)));  
+    // Mensaje antes de iniciar el programa
+    std::cout << "2) Diseñe el programa que genera un número aleatorio entre 1 y 6. Si el número es impar se muestra Felicidades, ganaste, de lo contrario Perdiste, sigue intentando" << std::endl;
 
     // Genera un número aleatorio entre 1 y 6
-    int numero = rand() % 6 + 1;  
+    int n = rand() % 6 + 1;
 
-    // Muestra el número generado
-    std::cout << "El número generado es: " << numero << std::endl;
+    // Muestra el número aleatorio generado
+    cout << endl << "El numero aleatorio es: " << n << endl;
 
-    // Determina si el número es impar o par y muestra el mensaje correspondiente
-    if (numero % 2 != 0) {
-        std::cout << "Felicidades, ganaste" << std::endl;
+    // Verifica si el número es impar o par y muestra el mensaje correspondiente
+    if (n % 2 != 0) {
+        cout << "Eres el ganador" << endl;
     } else {
-        std::cout << "Perdiste, sigue intentando" << std::endl;
+        cout << "Sigue intentando, tu puedes!" << endl;
     }
 
     return 0;

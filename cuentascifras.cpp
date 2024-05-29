@@ -1,6 +1,8 @@
 #include <iostream>
 
 int main() {
+    //Mensaje antes de inicializar el programa
+        std::cout<<"5) Diseñe un programa que lea un número comprendido entre 1 y 9.999.999. El programa debe imprimir de cuentas cifras se compone el número." <<std::endl;
     int numero;
 
     std::cout << "Ingrese un número entre 1 y 9.999.999: ";

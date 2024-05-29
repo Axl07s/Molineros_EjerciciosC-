@@ -1,8 +1,11 @@
 #include <iostream>
-#include <cmath> // Para la función sqrt()
+#include <math.h>
 using namespace std;
 
 int main() {
+    //Mensaje de introducción al código
+    std::cout<<"1) Codifique la ecuación cuadrática - solucionado en clases." <<std::endl;
+
     double a, b, c; // Coeficientes de la ecuación cuadrática
     double discriminante; // Discriminante de la ecuación
 

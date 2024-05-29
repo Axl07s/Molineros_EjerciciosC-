@@ -1,8 +1,11 @@
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
+#include <stdlib.h>
+#include <time.h>
 
 int main() {
+    //Mensaje antes de inicializar el programa
+    std::cout<<"4) Diseñe el programa que simula el lanzamiento de 2 dados. Un usuario gana cuando ambos dados sacan el mismo número, o cuando la sumatoria de las mismas es 11. Debe utilizar números aleatorios." <<std::endl;
+   
     srand(time(0));  // Inicializa el generador de números aleatorios
 
     int dado1 = rand() % 1 + 6;
