@@ -1,5 +1,5 @@
 
 Calificación: 2.0/3
-- No tenía que usar bucles, ni switch, en el ejercicio que cuenta cifras no ha validado los rangos
+- No tenía que usar bucles, ni switch.
 - faltan enunciados de los ejercicios.
 - Use el archivo .gitignore para evitar subir los archivos .exe
